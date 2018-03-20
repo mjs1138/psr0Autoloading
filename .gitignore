@@ -1,0 +1,28 @@
+# Mac file system
+.DS_Store
+
+# Ignore configuration files that may contain sensitive information.
+settings*.php
+
+# unimportant files
+*.tar
+*.tar.gz
+# *.sql
+
+# IDE/Netbeans
+**/nbproject
+
+*.sublime*
+sftp-config.json
+
+# IDE/Eclipse
+.buildpath
+.project
+.settings
+
+# IDE/PHPStorm
+.idea
+
+# Composer
+vendor/
+composer.lock
